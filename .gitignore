@@ -1,0 +1,14 @@
+.DS_Store
+
+.vscode
+.idea
+.fleet
+.#*
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+package.json
+server.js
