@@ -1,3 +1,16 @@
+node_modules
+
+dist
+build
+
+logs
+*.log
+*.log*
+
+.env
+.env.*
+*.local
+
 .DS_Store
 
 .vscode
@@ -9,6 +22,3 @@
 *.njsproj
 *.sln
 *.sw?
-
-package.json
-server.js

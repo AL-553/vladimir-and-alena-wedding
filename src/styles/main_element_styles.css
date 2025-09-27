@@ -595,7 +595,7 @@ img.survey__come-confirmation-success-image_impulsed {
 }
 
 .survey__loader-items-container > span::before {
-  content: url("../assets/icons/green_empty_circle.svg");
+  content: url("../../src/assets/icons/green_empty_circle.svg");
   position: absolute;
   width: 0.79vw;
   height: 0.79vw;

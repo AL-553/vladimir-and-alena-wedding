@@ -1,0 +1,24 @@
+{
+  "name": "site",
+  "private": true,
+  "scripts": {
+    "build": "npx -g webpack --config ./webpack_config/webpack.prod.js",
+    "webpackDev": "npx -g webpack --config ./webpack_config/webpack.dev.js",
+    "serverDev": "npx nodemon server.js",
+    "serverStart": "node server.js",
+    "dev": "npx npm-run-all2 --parallel webpackDev serverDev",
+    "start": "npx npm-run-all2 --parallel build serverStart"
+  },
+  "peerDependencies": {
+    "nodemon": "3.1.9",
+    "npm-run-all2": "8.0.4",
+    "webpack": "5.101.3",
+    "webpack-cli": "6.0.1"
+  },
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "css-minimizer-webpack-plugin": "^7.0.2",
+    "mini-css-extract-plugin": "^2.9.4",
+    "webpack-merge": "^6.0.1"
+  }
+}

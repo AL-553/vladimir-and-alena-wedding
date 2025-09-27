@@ -1,3 +1,11 @@
+import "../styles/common_styles.css";
+import "../styles/footer_adaptive.css";
+import "../styles/footer_styles.css";
+import "../styles/header_adaptive.css";
+import "../styles/header_styles.css";
+import "../styles/main_element_adaptive.css";
+import "../styles/main_element_styles.css";
+
 import {
     chooseButton,
     checkboxesList,
@@ -10,13 +18,13 @@ import {
     checkboxesMarkHandler,
     comeButtonClickHandler,
     nameInputInputHandler
-} from "./survey_script.js";
+} from "survey_script.js";
 
-// window.addEventListener("storage", () => {
-//     if(!localStorage.getItem("isAlreadyAnswered")) {
-//         localStorage.setItem("isAlreadyAnswered", "true");
-//     }
-// });
+window.addEventListener("storage", () => {
+    if(!localStorage.getItem("isAlreadyAnswered")) {
+        localStorage.setItem("isAlreadyAnswered", "true");
+    }
+});
 document.addEventListener("DOMContentLoaded", () => {
     if(localStorage.getItem("isAlreadyAnswered")) {
         const answeredMessageParagraphLeftValue = window.getComputedStyle(document.documentElement).getPropertyValue("--already-answered-paragraph-left-value");
