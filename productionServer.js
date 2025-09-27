@@ -115,5 +115,5 @@ const server = http.createServer({ maxHeaderSize: 512000, requestTimeout: 30000 
 });
 
 server.listen(process.env.PORT || 3000, "0.0.0.0", () => {
-    console.log("Server started at http://localhost:3000/");
+    console.log("Server successfully started");
 })
