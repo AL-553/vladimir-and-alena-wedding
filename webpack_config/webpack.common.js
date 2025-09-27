@@ -24,7 +24,6 @@ module.exports = {
     output: {
         clean: true,
         path: path.join(__dirname, "../", "build"),
-        filename: "scripts/mainscript.js",
-    },
-    watch: true
+        filename: "scripts/mainscript.js"
+    }
 }
