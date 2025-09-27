@@ -20,11 +20,11 @@ import {
     nameInputInputHandler
 } from "survey_script.js";
 
-// window.addEventListener("storage", () => {
-//     if(!localStorage.getItem("isAlreadyAnswered")) {
-//         localStorage.setItem("isAlreadyAnswered", "true");
-//     }
-// });
+window.addEventListener("storage", () => {
+    if(!localStorage.getItem("isAlreadyAnswered")) {
+        localStorage.setItem("isAlreadyAnswered", "true");
+    }
+});
 document.addEventListener("DOMContentLoaded", () => {
     if(localStorage.getItem("isAlreadyAnswered")) {
         const answeredMessageParagraphLeftValue = window.getComputedStyle(document.documentElement).getPropertyValue("--already-answered-paragraph-left-value");
