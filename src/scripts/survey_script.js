@@ -148,7 +148,7 @@ function checkboxesMarkHandler(changeEvent) {
 }
 async function forBotInfoRequester() {
     try {
-        const serverResponse = await fetch("http://localhost:3000/get-info-for-bot", { method: "POST", signal: AbortSignal.timeout(7000) });
+        const serverResponse = await fetch(`http://${window.location.host}/get-info-for-bot`, { method: "POST", signal: AbortSignal.timeout(7000) });
 
         if(serverResponse.ok && serverResponse.status === 200) {
             const responseData = await serverResponse.json();

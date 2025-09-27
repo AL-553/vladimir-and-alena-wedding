@@ -33,6 +33,7 @@ const permittedFilesNamesArray = [
     "mainscript.js",
     "mainstyle.css"
 ];
+const host = process.env.NODE_ENV === "production" ? "0.0.0.0" : "127.0.0.1";
 
 function MIMERecognizer(extension) {
     let contentType;
@@ -114,6 +115,7 @@ const server = http.createServer({ maxHeaderSize: 512000, requestTimeout: 30000 
     }
 });
 
-server.listen(process.env.PORT || 3000, "0.0.0.0", () => {
-    console.log("Server successfully started");
+server.listen(process.env.PORT || 3000, host, () => {
+    const outputtedMessage = host === "127.0.0.1" ? "Server started at http://localhost:3000/" : "Server successfully started";
+    console.log(outputtedMessage);
 })
