@@ -4,11 +4,11 @@
   "scripts": {
     "build": "npx webpack --config ./webpack_config/webpack.prod.js",
     "webpackDev": "npx -g webpack --config ./webpack_config/webpack.dev.js",
-    "serverDev": "npx nodemon server.js",
-    "serverStart": "node server.js",
+    "serverDev": "npx nodemon localServer.js",
+    "serverStart": "node localServer.js",
     "dev": "npx npm-run-all2 --parallel webpackDev serverDev",
     "localStart": "npx npm-run-all2 --parallel build serverStart",
-    "start": "node server.js"
+    "start": "node productionServer.js"
   },
   "peerDependencies": {
     "nodemon": "3.1.9",
