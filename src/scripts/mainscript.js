@@ -1,10 +1,10 @@
 import "../styles/common_styles.css";
-import "../styles/footer_adaptive.css";
 import "../styles/footer_styles.css";
-import "../styles/header_adaptive.css";
+import "../styles/footer_adaptive.css";
 import "../styles/header_styles.css";
-import "../styles/main_element_adaptive.css";
+import "../styles/header_adaptive.css";
 import "../styles/main_element_styles.css";
+import "../styles/main_element_adaptive.css";
 
 import {
     chooseButton,
