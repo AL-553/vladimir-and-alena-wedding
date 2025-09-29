@@ -276,7 +276,7 @@ function comeButtonClickHandler(clickEvent) {
             isAllowClickChooseButton = false;
             if(markedCheckboxesValuesArray.length !== 0) {
                 if(nameInput.value !== "") {
-                    if(!/^[АаБбВвГгЕеЁёЖжЗзИиЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщъЫыьЭэЮюЯя]+ [АаБбВвГгЕеЁёЖжЗзИиЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщъЫыьЭэЮюЯя]+$/
+                    if(!/^[АаБбВвГгДдЕеЁёЖжЗзИиЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщъЫыьЭэЮюЯя]+ [АаБбВвГгДдЕеЁёЖжЗзИиЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщъЫыьЭэЮюЯя]+$/
                     .test(nameInput.value)) {
                         const nameValidationContainerWidthValue = window.getComputedStyle(document.documentElement).getPropertyValue("--name-validation-container-width-value");
                         const longNameValidationContainerBottomValue = window.getComputedStyle(document.documentElement)
