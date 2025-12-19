@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "CormorantGaramond-Regular";
+  src: url("../../src/assets/fonts/CormorantGaramond/CormorantGaramond-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "QwitcherGryphen-Bold";
+  src: url("../../src/assets/fonts/QwitcherGryphen/QwitcherGrypen-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("../../src/assets/fonts/OpenSans/OpenSans-Regular.woff2") format("woff2");
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+*:not(html):not(body) {
+  position: relative;
+}
+
+:root {
+  --choose-variant-first-right-value: -12.9vw;
+  --survey-answer-first-right-value: -8.9vw;
+  --choose-button-hover-background-color: #80808054;
+  --come-button-hover-background-color: #50A950;
+  --name-validation-container-width-value: auto;
+  --short-name-validation-container-bottom-value: 1.78vw;
+  --long-name-validation-container-bottom-value: 1.78vw;
+  --confirmation-success-paragraph-left-value: 7.07vw;
+  --already-answered-paragraph-left-value: 6.957vw;
+}
+
+body {
+  background-image: url("../../src/assets/images/background_dented_paper.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}

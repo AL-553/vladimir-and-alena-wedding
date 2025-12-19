@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приглашение на свадьбу Владимира и Алёны</title>
+    <link rel="stylesheet" href="build/styles/mainstyle.css">
+    <link rel="icon" href="src/assets/icons/two_wedding_rings_favicon.ico">
+    <script src="build/scripts/mainscript.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>МЫ РАДЫ ПРИГЛАСИТЬ ВАС НА ТОРЖЕСТВО,<br>ПОСВЯЩЁННОЕ НАШЕМУ БРАКОСОЧЕТАНИЮ</h1>
+    </header>
+    <main>
+      <section>
+        <img class="va-wedding-main-content-container__basket-cat-image" src="src/assets/images/vladimir_alena_sitting_basket_greenery_cat.jpg" alt="изображение владимир алёна сидят
+        корзина зелень кот">
+      </section>
+      <section class="va-wedding-main-content-container__wedding-info-container">
+        <div class="va-wedding-main-content-container__date-container">
+          <p class="va-wedding-main-content-container__take-place-paragraph">КОТОРОЕ ПРОЙДЁТ</p>
+          <p class="va-wedding-main-content-container__date-paragraph">25.10.2025</p>
+        </div>
+        <div class="va-wedding-main-content-container__time-address-container">
+          <div class="va-wedding-main-content-container__time-wrapper">
+            <p class="va-wedding-main-content-container__time-paragraph">17:00</p>
+          </div>
+          <p class="va-wedding-main-content-container__address-paragraph">Ресторан «Фишт»<br>ул. Будённого, 64</p>
+        </div>
+      </section>
+      <section>
+        <div class="va-wedding-main-content-container__good-words-wrapper">
+          <p>Мы ждём и с удовольствием<br>готовимся к этому незабываемому дню!<br>Поддержите нас вашими улыбками<br>и объятиями, а также красивыми<br>нарядами в палитре торжества</p>
+        </div>
+      </section>
+      <section class="va-wedding-main-content-container__wedding-slider-container">
+        <div class="wedding-slider-container__left-control"></div>
+        <div class="wedding-slider-container__slides-wrapper">
+          <div class="wedding-slider-container__images-container">
+            <img src="src/assets/images/vladimir_holds_alena_laughing_river.jpg" alt="изображение владимир держит алёну смеются река">
+            <img src="src/assets/images/vladimir_alena_walking_garden_basket_greenery.jpg" alt="изображение владимир алёна идут сад корзина зелень">
+            <img src="src/assets/images/dress_code_colors_green_apples.jpg" alt="изображение цвета дресс-кода зелёные яблоки">
+            <img src="src/assets/images/vladimir_alena_laughing.jpg" alt="изображение владимир алёна смеются">
+            <img src="src/assets/images/vladimir_alena_hugging.jpg" alt="изображение владимир алёна обнимаются">
+            <img src="src/assets/images/vladimir_alena_laughing_shadow.jpg" alt="изображение владимир алёна смеются тень">
+            <img src="src/assets/images/vladimir_alena_sitting_reading.jpg" alt="изображение владимир алёна сидят читают">
+          </div>
+        </div>
+        <div class="wedding-slider-container__right-control"></div>
+      </section>
+      <section>
+        <form novalidate>
+          <div class="survey__alcohol-survey-container">
+            <h3>Важно</h3>
+            <p class="survey__comfort-wish-paragraph">Хотим, чтобы вам было комфортно</p>
+            <div class="survey__alcohol-paragraph-validation-container">
+              <p class="survey__preferred-alcohol-paragraph">Предпочитаемый алкоголь</p>
+              <div class="survey__alcohol-validation-container">
+                <p></p>
+              </div>
+            </div>
+            <p class="survey__hint-paragraph">(можно выбрать один или несколько вариантов)</p>
+            <div class="survey__white-wine-variant-container">
+              <input type="checkbox" value="белое вино">
+              <p>Белое вино</p>
+            </div>
+            <div class="survey__red-wine-variant-container">
+              <input type="checkbox" value="красное вино">
+              <p>Красное вино</p>
+            </div>
+            <div class="survey__champagne-variant-container">
+              <input type="checkbox" value="шампанское">
+              <p>Шампанское</p>
+            </div>
+            <div class="survey__strong-alcohol-variant-container">
+              <input type="checkbox" value="крепкий алкоголь">
+              <p>Крепкий алкоголь</p>
+            </div>
+            <div class="survey__no-alcohol-drinks-variant-container">
+              <input type="checkbox" value="безалкогольные напитки">
+              <p>Безалкогольные напитки</p>
+            </div>
+            <button class="survey__choose-button">Выбрать</button>
+            <img class="survey__choice-completed-icon" src="src/assets/icons/completed_circle_checkmark.svg" alt="иконка галочка круг">
+          </div>
+          <div>
+            <p class="survey__waiting-gladness-paragraph">Очень ждём и будем рады видеть<br>вас на нашей свадьбе!</p>
+            <p class="survey__confirmation-paragraph">Подтвердите, пожалуйста, ваше присутствие</p>
+            <div class="survey__confirmation-controls-container">
+              <div class="survey__error-message-container">
+                <div>
+                  <img src="src/assets/icons/cross_circle.svg" alt="иконка крестик круг">
+                  <img src="src/assets/icons/cross.svg" alt="иконка крестик">
+                </div>
+                <p>Не получилось записать ваш ответ из-за ошибки<br>в работе сайта. Перезагрузите веб-страницу и<br>попробуйте ещё раз или сделайте это позже</p>
+              </div>
+              <input type="text" placeholder="Ваши имя и фамилия">
+              <div class="survey__name-validation-container">
+                <p></p>
+              </div>
+              <p></p>
+              <button>Я приду!</button>
+              <div class="survey__confirmation-success-image-container">
+                <img src="src/assets/icons/firecracker_icon.svg" alt="иконка хлопушка">
+              </div>
+              <div class="survey__loader-container">
+                <div class="survey__loader-items-container">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <img src="src/assets/icons/heart_icon.svg" alt="иконка сердце">
+      <img src="src/assets/icons/bride_groom_icon.svg" alt="иконка жених невеста">
+    </footer>
+  </body>
+</html>

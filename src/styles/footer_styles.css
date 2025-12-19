@@ -1,0 +1,85 @@
+footer {
+  display: flex;
+  background-color: green;
+  justify-content: center;
+  padding: 0.53vw 2.63vw;
+}
+
+@keyframes smoothBlinking {
+  0% {
+    opacity: 1;
+  }
+  5% {
+    opacity: 0.9;
+  }
+  10% {
+    opacity: 0.8;
+  }
+  15% {
+    opacity: 0.7;
+  }
+  20% {
+    opacity: 0.6;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  30% {
+    opacity: 0.4;
+  }
+  35% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 0.2;
+  }
+  45% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 0.1;
+  }
+  60% {
+    opacity: 0.2;
+  }
+  65% {
+    opacity: 0.3;
+  }
+  70% {
+    opacity: 0.4;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 0.6;
+  }
+  85% {
+    opacity: 0.7;
+  }
+  90% {
+    opacity: 0.8;
+  }
+  95% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+footer > img:first-child {
+  width: 2.63vw;
+  height: 2.63vw;
+  animation: smoothBlinking 5s cubic-bezier(0, 0, 0, 0) 1s infinite normal none running;
+}
+
+footer > img:last-child {
+  position: absolute;
+  width: 2.63vw;
+  height: 2.63vw;
+  right: 2.63vw;
+}

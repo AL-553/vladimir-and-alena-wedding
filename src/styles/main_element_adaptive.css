@@ -1,0 +1,1485 @@
+@media (hover: none) and (pointer: coarse) {
+  :root {
+    --choose-button-active-background-color: #80808054;
+    --come-button-active-background-color: #50A950;
+  }
+
+  .survey__choose-button:active {
+    background-color: var(--choose-button-active-background-color);
+  }
+
+  .survey__confirmation-controls-container > button:active {
+    background-color: var(--come-button-active-background-color);
+  }
+}
+
+@media (min-width: 1913px) {
+  .survey__loader-items-container {
+    width: 3.3vw;
+    height: 3.3vw;
+  }
+  
+  .survey__loader-items-container > span::before {
+    content: url("../../src/assets/icons/green_empty_circle_increased.svg");
+    width: 1.5vw;
+    height: 1.5vw;
+  }
+}
+
+@media (max-width: 1499px) {
+  :root {
+    --choose-variant-first-right-value: -13.5vw;
+    --survey-answer-first-right-value: -9.5vw;
+  }
+
+  .va-wedding-main-content-container__good-words-wrapper > p {
+    font-size: 1.11vw;
+  }
+
+  .survey__preferred-alcohol-paragraph {
+    font-size: 1.17vw;
+  }
+
+  .survey__alcohol-validation-container::before {
+    left: -2.41vw;
+  }
+
+  .survey__hint-paragraph {
+    font-size: 0.91vw;
+  }
+
+  .survey__confirmation-controls-container > input, .survey__confirmation-controls-container > input::placeholder, .survey__confirmation-controls-container > button {
+    font-size: 0.95vw;
+  }
+
+  .survey__confirmation-controls-container > button, .survey__confirmation-success-image-container, .survey__loader-container {
+    width: 7.3vw;
+  }
+
+  .survey__loader-items-container {
+    width: 3.56vw;
+    height: 3.56vw;
+  }
+}
+
+@media (max-width: 1400px) {
+  :root {
+    --choose-variant-first-right-value: -14vw;
+    --survey-answer-first-right-value: -10vw;
+  }
+
+  .survey__preferred-alcohol-paragraph {
+    font-size: 1.23vw;
+  }
+
+  .survey__alcohol-validation-container::before {
+    border-right: 2.41vw solid #C9C9C9;
+  }
+
+  .survey__hint-paragraph {
+    font-size: 0.97vw;
+  }
+
+  .survey__choose-button {
+    font-size: 0.97vw;
+  }
+
+  .survey__loader-items-container {
+    width: 3.76vw;
+    height: 3.76vw;
+  }
+
+  .survey__loader-items-container > span::before {
+    width: 1.79vw;
+    height: 1.79vw;
+  }
+}
+
+@media (max-width: 1299px) {
+  :root {
+    --choose-variant-first-right-value: -14.5vw;
+    --survey-answer-first-right-value: -10.5vw;
+  }
+
+  .wedding-slider-container__left-control {
+    right: -1.3087vw;
+  }
+
+  .wedding-slider-container__left-control, .wedding-slider-container__right-control {
+    width: 2.848341vw;
+    height: 2.848341vw;
+  }
+
+  .wedding-slider-container__slides-wrapper {
+    width: 88.9147vw;
+    height: 41.8014vw;
+  }
+
+  .wedding-slider-container__images-container {
+    width: 311.5474vw;
+    column-gap: 14.85755vw;
+    left: -70.57vw;
+  }
+
+  .wedding-slider-container__images-container > img {
+    width: 25.94304vw;
+    height: 36.72056vw;
+    box-shadow: 0 0 1.539643vw 0 black;
+    transform: translateX(40.8006vw);
+  }
+
+  .wedding-slider-container__right-control {
+    left: -1.3087vw;
+  }
+
+  .survey__alcohol-validation-container::before {
+    left: -2.91vw;
+  }
+
+  .survey__hint-paragraph {
+    font-size: 1vw;
+  }
+
+  .survey__error-message-container {
+    left: 2.7vw;
+  }
+
+  .survey__choose-button, .survey__error-message-container > p, .survey__confirmation-controls-container > input, .survey__confirmation-controls-container > input::placeholder,
+  .survey__confirmation-controls-container > button {
+    font-size: 1.1vw;
+  }
+
+  .survey__confirmation-controls-container > button, .survey__confirmation-success-image-container, .survey__loader-container {
+    width: 7.9vw;
+  }
+
+  .survey__loader-items-container {
+    width: 4.46vw;
+    height: 4.46vw;
+  }
+
+  .survey__loader-items-container > span::before {
+    width: 2.39vw;
+    height: 2.39vw;
+  }
+}
+
+@media (max-width: 1149px) {
+  :root {
+    --choose-variant-first-right-value: -18.2vw;
+    --survey-answer-first-right-value: -13.2vw;
+    --name-validation-container-width-value: 48vw;
+    --short-name-validation-container-bottom-value: 1.48vw;
+    --long-name-validation-container-bottom-value: 1.48vw;
+    --confirmation-success-paragraph-left-value: 7.703vw;
+    --already-answered-paragraph-left-value: 5.962vw;
+  }
+
+  .va-wedding-main-content-container__basket-cat-image {
+    width: 37.8vw;
+  }
+
+  .va-wedding-main-content-container__date-container {
+    margin: 0 auto 0 3.54vw;
+  }
+
+  .va-wedding-main-content-container__take-place-paragraph {
+    font-size: 2.83vw;
+  }
+
+  .va-wedding-main-content-container__date-paragraph {
+    font-size: 9.9vw;
+    line-height: 6.2vw;
+    left: 4px;
+    margin-top: -2.32vw;
+  }
+
+  .va-wedding-main-content-container__time-address-container {
+    margin: 0 8.227vw 0 auto;
+  }
+
+  .va-wedding-main-content-container__time-wrapper {
+    width: 9.64vw;
+    height: 4.93vw;
+  }
+  
+  .va-wedding-main-content-container__time-paragraph {
+    font-size: 2.5vw;
+  }
+
+  .va-wedding-main-content-container__address-paragraph {
+    font-size: 1.72vw;
+  }
+
+  .va-wedding-main-content-container__good-words-wrapper {
+    width: 36.05vw;
+    height: 11.2vw;
+  }
+
+  .va-wedding-main-content-container__good-words-wrapper > p {
+    font-size: 1.31vw;
+  }
+
+  .survey__alcohol-survey-container {
+    width: 44.554vw;
+  }
+
+  .survey__alcohol-survey-container > h3 {
+    font-size: 2vw;
+  }
+
+  .survey__comfort-wish-paragraph {
+    font-size: 1.66vw;
+  }
+
+  .survey__preferred-alcohol-paragraph {
+    font-size: 1.43vw;
+  }
+
+  .survey__alcohol-validation-container {
+    top: -1.3vw;
+    padding: 1vw;
+  }
+
+  .survey__alcohol-validation-container::before {
+    border: 1.219vw solid transparent;
+    border-right: 3.05vw solid #C9C9C9;
+  }
+
+  .survey__alcohol-validation-container > p {
+    font-size: 1.1vw;
+  }
+
+  .survey__hint-paragraph {
+    font-size: 1.4vw;
+    margin: 0 auto 3.54vw auto;
+  }
+
+  .survey__alcohol-survey-container > div:not(:first-of-type):not(:last-of-type) {
+    margin-bottom: 2.32vw;
+  }
+
+  .survey__white-wine-variant-container, .survey__red-wine-variant-container, .survey__champagne-variant-container, .survey__strong-alcohol-variant-container,
+  .survey__no-alcohol-drinks-variant-container {
+    column-gap: 0.93vw;
+  }
+
+  .survey__alcohol-survey-container > div > input {
+    width: 1.62vw;
+    height: 1.62vw;
+  }
+
+  .survey__alcohol-survey-container > div:not(:first-of-type) > p {
+    font-size: 1.57vw;
+    margin-bottom: -3px;
+  }
+
+  .survey__alcohol-survey-container > div:last-of-type {
+    margin-bottom: 4.5vw;
+  }
+
+  .survey__choice-completed-icon {
+    width: 4vw;
+    height: 4vw;
+    bottom: 2.53vw;
+    left: 20.235vw;
+  }
+
+  .survey__waiting-gladness-paragraph {
+    font-size: 2.93vw;
+    margin: 0 auto 1.56vw auto;
+  }
+
+  .survey__confirmation-paragraph {
+    font-size: 1.66vw;
+    margin: 0 auto 4.75vw auto;
+  }
+
+  .survey__confirmation-controls-container {
+    height: 9.96vw;
+    column-gap: 1.55vw;
+  }
+
+  .survey__error-message-container {
+    top: -3.221vw;
+    left: 1.828vw;
+    padding: 1vw;
+  }
+
+  .survey__error-message-container > div > img:first-child {
+    width: 3.63vw;
+    height: 3.63vw;
+  }
+
+  .survey__error-message-container > div > img:last-child {
+    width: 1.56vw;
+    height: 1.56vw;
+  }
+
+  .survey__confirmation-controls-container > input {
+    width: 25.02vw;
+    height: 3.54vw;
+    padding: 0 1.36vw;
+  }
+
+  .survey__name-validation-container {
+    left: -2.5vw;
+  }
+
+  p.survey__already-answered-paragraph, p.survey__confirmation-success-paragraph {
+    font-size: 1.46vw;
+    top: 6.17vw;
+  }
+
+  .survey__name-validation-container > p {
+    font-size: 1.3vw;
+  }
+
+  .survey__choose-button, .survey__error-message-container > p, .survey__confirmation-controls-container > input, .survey__confirmation-controls-container > input::placeholder,
+  .survey__confirmation-controls-container > button {
+    font-size: 1.3vw;
+  }
+
+  .survey__confirmation-controls-container > button {
+    height: 3.54vw;
+    border: 0.18vw solid #50A950;
+  }
+
+  .survey__loader-items-container {
+    width: 4.56vw;
+    height: 4.56vw;
+    top: 1.63vw;
+  }
+
+  .survey__confirmation-controls-container > button, .survey__confirmation-success-image-container, .survey__loader-container {
+    width: 8.8vw;
+  }
+}
+
+@media (max-width: 899px) {
+  :root {
+    --choose-variant-first-right-value: -26vw;
+    --survey-answer-first-right-value: -19.5vw;
+    --name-validation-container-width-value: 58.4vw;
+    --short-name-validation-container-bottom-value: initial;
+    --long-name-validation-container-bottom-value: initial;
+    --confirmation-success-paragraph-left-value: 11.291vw;
+    --already-answered-paragraph-left-value: 9.065628vw;
+  }
+
+  .va-wedding-main-content-container__basket-cat-image {
+    width: 42.8vw;
+    margin: 2vw auto 0 auto;
+  }
+
+  .va-wedding-main-content-container__wedding-info-container {
+    margin: 3.7vw 0;
+  }
+
+  .va-wedding-main-content-container__date-container {
+    margin: 0 auto 0 2.5vw;
+  }
+
+  .va-wedding-main-content-container__take-place-paragraph {
+    font-size: 3vw;
+  }
+
+  .va-wedding-main-content-container__date-paragraph {
+    font-size: 10.5vw;
+    line-height: 6.7vw;
+  }
+
+  .va-wedding-main-content-container__time-address-container {
+    margin: 0 5.73vw 0 auto;
+  }
+
+  .va-wedding-main-content-container__time-wrapper {
+    width: 10.74vw;
+    height: 5.53vw;
+    border: 0.38vw solid #96CB96BA;
+  }
+
+  .va-wedding-main-content-container__time-paragraph {
+    font-size: 3vw;
+  }
+
+  .va-wedding-main-content-container__address-paragraph {
+    font-size: 2vw;
+  }
+
+  .va-wedding-main-content-container__good-words-wrapper {
+    width: 54.05vw;
+    height: 15vw;
+  }
+
+  .va-wedding-main-content-container__good-words-wrapper > p {
+    font-size: 1.7vw;
+  }
+
+  .wedding-slider-container__left-control {
+    right: -4.7vw;
+  }
+
+  .wedding-slider-container__left-control, .wedding-slider-container__right-control {
+    width: 3.89322vw;
+    height: 3.89322vw;
+    border: 0.333704vw solid green;
+  }
+
+  .wedding-slider-container__slides-wrapper {
+    width: 76.752vw;
+    height: 53.72637vw;
+  }
+
+  .wedding-slider-container__images-container {
+    width: 487.8754vw;
+    column-gap: 30.9233vw;
+    left: -108.3vw;
+  }
+
+  .wedding-slider-container__images-container > img {
+    width: 33.92659vw;
+    height: 45.828699vw;
+    box-shadow: 0 0 2.224689vw 0 black;
+    transform: translateX(64.8498vw);
+  }
+
+  .wedding-slider-container__images-container > img:first-child {
+    order: 1;
+  }
+
+  .wedding-slider-container__images-container > img:nth-child(2) {
+    order: 3;
+  }
+
+  .wedding-slider-container__images-container > img:nth-child(3) {
+    order: 2;
+  }
+
+  .wedding-slider-container__images-container > img:nth-child(4) {
+    order: 4;
+  }
+
+  .wedding-slider-container__images-container > img:nth-child(5) {
+    order: 5;
+  }
+
+  .wedding-slider-container__images-container > img:nth-child(6) {
+    order: 6;
+  }
+
+  .wedding-slider-container__images-container > img:last-child {
+    order: 7;
+  }
+
+  .wedding-slider-container__right-control {
+    left: -4.7vw;
+  }
+
+  .survey__alcohol-survey-container {
+    width: 47.5vw;
+    margin: 0 auto 4.06vw auto;
+  }
+
+  .survey__alcohol-survey-container > h3 {
+    font-size: 2.5vw;
+    margin: 0 auto 0.8vw auto;
+  }
+
+  .survey__comfort-wish-paragraph {
+    font-size: 1.9vw;
+  }
+
+  .survey__preferred-alcohol-paragraph {
+    font-size: 1.8vw;
+  }
+
+  .survey__alcohol-validation-container {
+    top: -2.1vw;
+  }
+
+  .survey__alcohol-validation-container::before {
+    border: 1.725vw solid transparent;
+    border-right: 3.34vw solid #C9C9C9;
+    top: 1.5vw;
+    left: -3.51vw;
+  }
+
+  .survey__alcohol-validation-container > p {
+    font-size: 1.5vw;
+    line-height: 2.1vw;
+  }
+
+  .survey__hint-paragraph {
+    font-size: 1.6vw;
+    margin: 0 auto 3.7vw auto;
+  }
+
+  .survey__white-wine-variant-container, .survey__red-wine-variant-container, .survey__champagne-variant-container, .survey__strong-alcohol-variant-container,
+  .survey__no-alcohol-drinks-variant-container {
+    column-gap: 1.1vw;
+  }
+
+  .survey__alcohol-survey-container > div > input {
+    width: 2vw;
+    height: 2vw;
+  }
+
+  .survey__alcohol-survey-container > div:not(:first-of-type) > p {
+    font-size: 1.8vw;
+    margin-bottom: -1px;
+  }
+
+  .survey__alcohol-survey-container > div:last-of-type {
+    margin-bottom: 5vw;
+  }
+
+  .survey__choose-button {
+    border-radius: 0.41vw;
+    padding: 1.25vw 3.52vw;
+  }
+
+  .survey__choose-button, .survey__error-message-container > p, .survey__confirmation-controls-container > input, .survey__confirmation-controls-container > input::placeholder,
+  .survey__confirmation-controls-container > button {
+    font-size: 1.8vw;
+  }
+
+  .survey__choice-completed-icon {
+    width: 5vw;
+    height: 5vw;
+    bottom: 2.33vw;
+    left: 21.191vw;
+  }
+  
+  .survey__waiting-gladness-paragraph {
+    font-size: 3.33vw;
+    margin: 0 auto 1.86vw auto;
+  }
+
+  .survey__confirmation-paragraph {
+    font-size: 1.96vw;
+    margin: 0 auto 6.05vw auto;
+  }
+
+  .survey__confirmation-controls-container {
+    height: 11.78vw;
+    padding-bottom: 6.04vw;
+  }
+
+  .survey__error-message-container {
+    width: 42.94vw;
+    top: -4.23vw;
+    left: 2.50278vw
+  }
+
+  .survey__error-message-container > div {
+    margin-bottom: 1.36vw;
+  }
+
+  .survey__error-message-container > div > img:first-child {
+    width: 4.23vw;
+    height: 4.23vw;
+  }
+
+  .survey__error-message-container > div > img:last-child {
+    width: 1.96vw;
+    height: 1.96vw;
+  }
+
+  .survey__confirmation-controls-container > input {
+    width: 35.52vw;
+    height: 4.04vw;
+    padding: 0 1.56vw;
+  }
+
+  .survey__name-validation-container::before {
+    border: 1.56vw solid transparent;
+    border-bottom: 2.48vw solid #C9C9C9;
+    top: -2.91vw;
+    left: 2.7vw;
+  }
+
+  .survey__name-validation-container > p {
+    font-size: 1.6vw;
+  }
+
+  p.survey__already-answered-paragraph, p.survey__confirmation-success-paragraph {
+    font-size: 1.86vw;
+    top: 7.07vw;
+  }
+
+  .survey__confirmation-controls-container > button {
+    height: 4.039vw;
+    border: 0.28vw solid #50A950;
+    border-radius: 0.37vw;
+  }
+
+  .survey__confirmation-success-image-container {
+    height: 5.73vw;
+  }
+
+  .survey__confirmation-success-image-container > img {
+    width: 5.73vw;
+    height: 5.73vw;
+    top: 0.1112347vw;
+  }
+
+  .survey__loader-container {
+    height: 3.54vw;
+  }
+
+  .survey__loader-items-container {
+    width: 5.56vw;
+    height: 5.56vw;
+    top: 1.73vw;
+  }
+
+  .survey__loader-items-container > span::before {
+    width: 2.79vw;
+    height: 2.79vw;
+  }
+
+  .survey__confirmation-controls-container > button, .survey__confirmation-success-image-container, .survey__loader-container {
+    width: 11.3vw;
+  }
+}
+
+@media (max-width: 699px) {
+  :root {
+    --choose-variant-first-right-value: -17.7vw;
+    --survey-answer-first-right-value: -12.7vw;
+    --name-validation-container-width-value: 72.3vw;
+    --short-name-validation-container-bottom-value: 1.88vw;
+    --long-name-validation-container-bottom-value: -0.82vw;
+    --confirmation-success-paragraph-left-value: 12.44635vw;
+    --already-answered-paragraph-left-value: 9.58512vw;
+  }
+
+  .va-wedding-main-content-container__basket-cat-image {
+    width: 60.5vw;
+    margin: 3vw auto 0 auto;
+  }
+
+  .va-wedding-main-content-container__wedding-info-container {
+    margin: 7.3vw 0;
+  }
+
+  .va-wedding-main-content-container__date-container {
+    margin: 0 auto 0 3.7vw;
+  }
+
+  .va-wedding-main-content-container__take-place-paragraph {
+    font-size: 3.7vw;
+  }
+
+  .va-wedding-main-content-container__date-paragraph {
+    font-size: 12.9vw;
+    line-height: 8vw;
+    left: 3px;
+  }
+
+  .va-wedding-main-content-container__time-address-container {
+    margin: 0 5.53vw 0 auto;
+  }
+
+  .va-wedding-main-content-container__time-wrapper {
+    width: 12.74vw;
+    height: 7.03vw;
+    border: 0.48vw solid #96CB96BA;
+  }
+
+  .va-wedding-main-content-container__time-paragraph {
+    font-size: 3.4vw;
+  }
+
+  .va-wedding-main-content-container__address-paragraph {
+    font-size: 2.5vw;
+  }
+
+  .va-wedding-main-content-container__good-words-wrapper {
+    width: 77.35vw;
+    height: 21vw;
+  }
+
+  .va-wedding-main-content-container__good-words-wrapper > p {
+    font-size: 2.3vw;
+  }
+
+  .va-wedding-main-content-container__wedding-slider-container {
+    margin: 5.72246vw 0 10.44349vw 0;
+  }
+
+  .wedding-slider-container__left-control, .wedding-slider-container__right-control {
+    width: 5.00716vw;
+    height: 5.00716vw;
+  }
+
+  .wedding-slider-container__slides-wrapper {
+    width: 76.8241vw;
+    height: 63.6624vw;
+  }
+
+  .wedding-slider-container__images-container {
+    width: 513.59084vw;
+    column-gap: 28.8984vw;
+    left: -116.7vw;
+  }
+
+  .wedding-slider-container__images-container > img {
+    width: 38.9128vw;
+    height: 53.9342vw;
+    box-shadow: 0 0 2.86123vw 0 black;
+    transform: translateX(67.8111vw);
+  }
+
+  .survey__alcohol-survey-container {
+    width: 63.7vw;
+    padding: 2.37vw 3.77vw 2.63vw 3.77vw;
+    margin: 0 auto 4.76vw auto;
+  }
+
+  .survey__alcohol-survey-container > h3 {
+    font-size: 3.3vw;
+    margin: 0 auto 1.3vw auto;
+  }
+
+  .survey__comfort-wish-paragraph {
+    font-size: 2.7vw;
+  }
+
+  .survey__preferred-alcohol-paragraph {
+    font-size: 2.5vw;
+  }
+
+  .survey__alcohol-validation-container {
+    top: -2.9vw;
+    padding: 1.3vw;
+  }
+
+  .survey__alcohol-validation-container::before {
+    border: 1.72vw solid transparent;
+    border-right: 3.44vw solid #C9C9C9;
+    top: 3vw;
+    left: -4.11vw;
+  }
+
+  .survey__alcohol-validation-container > p {
+    font-size: 1.8vw;
+    line-height: 2.3vw;
+  }
+
+  .survey__hint-paragraph {
+    font-size: 2vw;
+    margin: 0 auto 4vw auto;
+  }
+
+  .survey__alcohol-survey-container > div:not(:first-of-type):not(:last-of-type) {
+    margin-bottom: 2.82vw;
+  }
+
+  .survey__white-wine-variant-container, .survey__red-wine-variant-container, .survey__champagne-variant-container, .survey__strong-alcohol-variant-container,
+  .survey__no-alcohol-drinks-variant-container {
+    column-gap: 1.7vw;
+  }
+
+  .survey__alcohol-survey-container > div > input {
+    width: 2.6vw;
+    height: 2.5vw;
+    border: 0.2vw solid grey;
+    border-radius: 0.37vw;
+  }
+
+  .survey__alcohol-survey-container > div:not(:first-of-type) > p {
+    font-size: 2.5vw;
+  }
+
+  .survey__choose-button, .survey__error-message-container > p, .survey__confirmation-controls-container > input, .survey__confirmation-controls-container > input::placeholder,
+  .survey__confirmation-controls-container > button {
+    font-size: 2.3vw;
+  }
+
+  .survey__choose-button {
+    border-radius: 0.51vw;
+    padding: 1.55vw 5.52vw;
+  }
+
+  .survey__choice-completed-icon {
+    width: 6.7vw;
+    height: 6.7vw;
+    bottom: 2.13vw;
+    left: 28.4692vw;
+  }
+
+  .survey__waiting-gladness-paragraph {
+    font-size: 3.73vw;
+  }
+
+  .survey__confirmation-paragraph {
+    font-size: 2.36vw;
+    margin: 0 auto 6.55vw auto;
+  }
+
+  .survey__confirmation-controls-container {
+    height: 15.38vw;
+    padding-bottom: 7.54vw;
+  }
+
+  .survey__error-message-container {
+    width: 55.24vw;
+    top: -5.650929vw;
+    left: 0.9298998vw;
+    padding: 1.5vw;
+  }
+
+  .survey__error-message-container > div {
+    margin-bottom: 1.86vw;
+  }
+
+  .survey__error-message-container > div > img:first-child {
+    width: 5.03vw;
+    height: 5.03vw;
+  }
+
+  .survey__error-message-container > div > img:last-child {
+    width: 2.36vw;
+    height: 2.36vw;
+    top: -0.57vw;
+    right: -0.47vw;
+  }
+
+  .survey__confirmation-controls-container > input {
+    width: 42.52vw;
+    height: 5.24vw;
+    padding: 0 2.06vw;
+  }
+
+  .survey__name-validation-container {
+    left: -1.8vw;
+    padding: 1.1vw;
+  }
+
+  .survey__name-validation-container > p {
+    font-size: 2.2vw;
+  }
+
+  p.survey__already-answered-paragraph, p.survey__confirmation-success-paragraph {
+    font-size: 2.36vw;
+    top: 9.57vw;
+  }
+
+  .survey__confirmation-controls-container > button, .survey__confirmation-success-image-container, .survey__loader-container {
+    width: 13.8vw;
+  }
+
+  .survey__confirmation-controls-container > button {
+    height: 5.24vw;
+    border: 0.4vw solid #50A950;
+    border-radius: 0.38vw;
+  }
+
+  .survey__confirmation-success-image-container {
+    height: 7.83vw;
+  }
+
+  .survey__confirmation-success-image-container > img {
+    width: 7.73vw;
+    height: 7.73vw;
+  }
+
+  .survey__loader-container {
+    height: 4.74vw;
+  }
+
+  .survey__loader-items-container {
+    width: 6.26vw;
+    height: 6.26vw;
+    top: 2.33vw;
+  }
+}
+
+@media (max-width: 559px) {
+  :root {
+    --choose-variant-first-right-value: -8.7vw;
+    --survey-answer-first-right-value: -8.7vw;
+    --name-validation-container-width-value: 81.3vw;
+    --short-name-validation-container-bottom-value: 6.38vw;
+    --long-name-validation-container-bottom-value: 3.4vw;
+    --confirmation-success-paragraph-left-value: 19.0518vw;
+    --already-answered-paragraph-left-value: 15.02683vw;
+  }
+
+  .va-wedding-main-content-container__basket-cat-image {
+    width: 74.7vw;
+    margin: 4vw auto 0 auto;
+  }
+
+  .va-wedding-main-content-container__wedding-info-container {
+    margin: 9vw 0;
+  }
+
+  .va-wedding-main-content-container__date-container {
+    margin: 0 auto 0 1.5vw;
+  }
+
+  .va-wedding-main-content-container__take-place-paragraph {
+    font-size: 4.8vw;
+  }
+
+  .va-wedding-main-content-container__date-paragraph {
+    font-size: 16.9vw;
+    line-height: 10.6vw;
+    margin-top: -3.72vw;
+  }
+
+  .va-wedding-main-content-container__time-address-container {
+    margin: 0 3.03vw 0 auto;
+  }
+
+  .va-wedding-main-content-container__time-wrapper {
+    width: 16.84vw;
+    height: 8.73vw;
+    border: 0.68vw solid #96CB96BA;
+  }
+
+  .va-wedding-main-content-container__time-paragraph {
+    font-size: 4.8vw;
+  }
+
+  .va-wedding-main-content-container__address-paragraph {
+    font-size: 3vw;
+  }
+
+  .va-wedding-main-content-container__good-words-wrapper {
+    width: 93.55vw;
+    height: 26.3vw;
+  }
+
+  .va-wedding-main-content-container__good-words-wrapper > p {
+    font-size: 3vw;
+  }
+
+  .wedding-slider-container__left-control, .wedding-slider-container__right-control {
+    width: 5.72451vw;
+    height: 5.72451vw;
+    border: 0.536672vw solid green;
+  }
+
+  .wedding-slider-container__slides-wrapper {
+    width: 72.8086vw;
+    height: 85.331vw;
+  }
+
+  .wedding-slider-container__images-container {
+    width: 554.38282vw;
+    column-gap: 20.9302vw;
+    left: -133.3vw;
+  }
+
+  .wedding-slider-container__images-container > img {
+    width: 50.9839vw;
+    height: 73.882vw;
+    box-shadow: 0 0 3.57781vw 0 black;
+    transform: translateX(71.9141vw);
+  }
+
+  .survey__alcohol-survey-container {
+    width: 83vw;
+    padding: 4.53vw 4.57vw;
+    margin: 0 auto 6.76vw auto;
+  }
+
+  .survey__alcohol-survey-container > h3 {
+    font-size: 4.3vw;
+    margin: 0 auto 2vw auto;
+  }
+
+  .survey__comfort-wish-paragraph {
+    font-size: 3.3vw;
+    margin: 0 auto 3.34vw auto;
+  }
+
+  .survey__preferred-alcohol-paragraph {
+    font-size: 3.3vw;
+  }
+
+  .survey__alcohol-validation-container {
+    border-radius: 0.67vw;
+    z-index: 1;
+    top: -2.2vw;
+    padding: 2vw;
+  }
+
+  .survey__alcohol-validation-container > p {
+    font-size: 2.8vw;
+    line-height: 4vw;
+  }
+
+  .survey__hint-paragraph {
+    font-size: 2.7vw;
+    margin: 0 auto 7.5vw auto;
+  }
+
+  .survey__alcohol-survey-container > div:not(:first-of-type):not(:last-of-type) {
+    margin-bottom: 3.52vw;
+  }
+
+  .survey__white-wine-variant-container, .survey__red-wine-variant-container, .survey__champagne-variant-container, .survey__strong-alcohol-variant-container,
+  .survey__no-alcohol-drinks-variant-container {
+    column-gap: 2.3vw;
+  }
+
+  .survey__alcohol-survey-container > div > input {
+    width: 3.5vw;
+    height: 3.5vw;
+    border: 0.3vw solid grey;
+    border-radius: 0.67vw;
+  }
+
+  .survey__alcohol-survey-container > div:not(:first-of-type) > p {
+    font-size: 3.5vw;
+  }
+
+  .survey__alcohol-survey-container > div:last-of-type {
+    margin-bottom: 8.5vw;
+  }
+
+  .survey__choose-button {
+    border-radius: 0.71vw;
+    padding: 1.85vw 7.32vw;
+  }
+
+  .survey__choose-button, .survey__error-message-container > p, .survey__confirmation-controls-container > input, .survey__confirmation-controls-container > input::placeholder,
+  .survey__confirmation-controls-container > button {
+    font-size: 3.1vw;
+  }
+
+  .survey__choice-completed-icon {
+    width: 9vw;
+    height: 9vw;
+    bottom: 3.83vw;
+    left: 37.0304vw;
+  }
+
+  .survey__waiting-gladness-paragraph {
+    font-size: 4.73vw;
+    margin: 0 auto 3.06vw auto;
+  }
+
+  .survey__confirmation-paragraph {
+    font-size: 3.36vw;
+    margin: 0 auto 11.35vw auto;
+  }
+
+  .survey__confirmation-controls-container {
+    height: 23.88vw;
+    column-gap: 3.35vw;
+    padding-bottom: 13.04vw;
+  }
+
+  .survey__error-message-container {
+    width: 75.44vw;
+    border-radius: 0.77vw;
+    box-shadow: 0 0 1.36vw 0 black;
+    top: -7.96064vw;
+    left: 4.20393vw;
+    padding: 2.5vw;
+  }
+
+  .survey__error-message-container > div {
+    margin-bottom: 2.76vw;
+  }
+
+  .survey__error-message-container > div > img:first-child {
+    width: 7.73vw;
+    height: 7.73vw;
+  }
+
+  .survey__error-message-container > div > img:last-child {
+    width: 3.06vw;
+    height: 3.06vw;
+    top: -1.07vw;
+    right: -1.07vw;
+  }
+
+  .survey__confirmation-controls-container > input {
+    width: 61.52vw;
+    height: 7.54vw;
+    padding: 0 2.66vw;
+  }
+
+  .survey__name-validation-container {
+    border-radius: 0.67vw;
+    left: -1.4vw;
+    padding: 1.5vw;
+  }
+
+  .survey__name-validation-container::before {
+    border: 1.86vw solid transparent;
+    border-bottom: 2.98vw solid #C9C9C9;
+    top: -3.71vw;
+  }
+
+  .survey__name-validation-container > p {
+    font-size: 2.7vw;
+  }
+
+  p.survey__already-answered-paragraph, p.survey__confirmation-success-paragraph {
+    font-size: 3.36vw;
+    top: 13.77vw;
+  }
+
+  .survey__confirmation-controls-container > button {
+    height: 7.54vw;
+    border: 0.6vw solid #50A950;
+    border-radius: 0.68vw;
+    padding: 0 2.28vw;
+  }
+
+  .survey__confirmation-controls-container > button, .survey__confirmation-success-image-container, .survey__loader-container {
+    width: 19vw;
+  }
+
+  .survey__confirmation-success-image-container {
+    height: 10.83vw;
+  }
+
+  .survey__confirmation-success-image-container > img {
+    width: 10.73vw;
+    height: 10.73vw;
+  }
+
+  .survey__loader-container {
+    height: 8.84vw;
+  }
+
+  .survey__loader-items-container {
+    width: 8.156vw;
+    height: 8.156vw;
+    top: 4.53vw;
+  }
+
+  .survey__loader-items-container > span::before {
+    width: 3.578vw;
+    height: 3.578vw;
+  }
+}
+
+@media (max-width: 425px) {
+  .survey__loader-items-container {
+    width: 11.05883vw;
+    height: 11.05883vw;
+  }
+
+  .survey__loader-items-container > span::before {
+    width: 4.5294vw;
+    height: 4.5294vw;
+  }
+}
+
+@media (max-width: 399px) {
+  :root {
+    --choose-variant-first-right-value: 1.1vw;
+    --survey-answer-first-right-value: -6.7vw;
+    --name-validation-container-width-value: 91.1vw;
+    --short-name-validation-container-bottom-value: 4vw;
+    --long-name-validation-container-bottom-value: -2vw;
+    --confirmation-success-paragraph-left-value: 16.91729vw;
+    --already-answered-paragraph-left-value: 11.65413vw;
+  }
+
+  .va-wedding-main-content-container__basket-cat-image {
+    width: 89.5vw;
+    margin: 6.5vw auto 0 auto;
+  }
+
+  .va-wedding-main-content-container__wedding-info-container {
+    margin: 10vw 0 13vw 0;
+  }
+
+  .va-wedding-main-content-container__date-container {
+    margin: 0 auto 0 2vw;
+  }
+
+  .va-wedding-main-content-container__take-place-paragraph {
+    font-size: 5.5vw;
+  }
+
+  .va-wedding-main-content-container__date-paragraph {
+    font-size: 19.7vw;
+    line-height: 13vw;
+    left: 1px;
+    margin-top: -4.22vw;
+  }
+
+  .va-wedding-main-content-container__time-address-container {
+    margin: 0 2.33vw 0 auto;
+  }
+
+  .va-wedding-main-content-container__time-wrapper {
+    width: 20.24vw;
+    height: 11.03vw;
+    border: 0.78vw solid #96CB96BA;
+  }
+
+  .va-wedding-main-content-container__time-paragraph {
+    font-size: 5.8vw;
+  }
+
+  .va-wedding-main-content-container__address-paragraph {
+    font-size: 4vw;
+  }
+
+  .va-wedding-main-content-container__good-words-wrapper {
+    width: 98.05vw;
+    height: 35vw;
+  }
+
+  .va-wedding-main-content-container__good-words-wrapper > p {
+    font-size: 3.8vw;
+  }
+
+  .survey__alcohol-survey-container {
+    width: 90.7vw;
+    border-radius: 1.38vw;
+    box-shadow: 0 0 1.56vw 0 black;
+    padding: 4.73vw 4.57vw 5.53vw 4.57vw;
+    margin: 0 auto 8.76vw auto;
+  }
+
+  .survey__alcohol-survey-container > h3 {
+    font-size: 5.5vw;
+    margin: 0 auto 2.7vw auto;
+  }
+
+  .survey__comfort-wish-paragraph {
+    font-size: 4.3vw;
+    margin: 0 auto 4.34vw auto;
+  }
+
+  .survey__preferred-alcohol-paragraph {
+    font-size: 4.3vw;
+  }
+
+  .survey__alcohol-validation-container {
+    border-radius: 1.07vw;
+    z-index: 1;
+    top: 8vw;
+    padding: 2vw;
+  }
+
+  .survey__alcohol-validation-container::before {
+    border: 2.32vw solid transparent;
+    border-bottom: 4.14vw solid #C9C9C9;
+    top: -4.7vw;
+    left: 3.39vw;
+  }
+
+  .survey__alcohol-validation-container > p {
+    font-size: 3.5vw;
+    line-height: normal;
+  }
+
+  .survey__hint-paragraph {
+    font-size: 3.3vw;
+    margin: 0 auto 9.7vw auto;
+  }
+
+  .survey__alcohol-survey-container > div:not(:first-of-type):not(:last-of-type) {
+    margin-bottom: 5.02vw;
+  }
+
+  .survey__white-wine-variant-container, .survey__red-wine-variant-container, .survey__champagne-variant-container, .survey__strong-alcohol-variant-container,
+  .survey__no-alcohol-drinks-variant-container {
+    column-gap: 3vw;
+  }
+
+  .survey__alcohol-survey-container > div > input {
+    width: 5vw;
+    height: 5vw;
+    border: 0.5vw solid grey;
+    border-radius: 0.87vw;
+  }
+
+  .survey__alcohol-survey-container > div:not(:first-of-type) > p {
+    font-size: 4.5vw;
+    margin-bottom: -2px;
+  }
+
+  .survey__alcohol-survey-container > div:last-of-type {
+    margin-bottom: 10.5vw;
+  }
+
+  .survey__choose-button {
+    border-radius: 1.01vw;
+    padding: 2.65vw 8.72vw;
+  }
+
+  .survey__choose-button, .survey__error-message-container > p, .survey__confirmation-controls-container > input, .survey__confirmation-controls-container > input::placeholder,
+  .survey__confirmation-controls-container > button {
+    font-size: 4vw;
+  }
+
+  .survey__choice-completed-icon {
+    width: 12vw;
+    height: 12vw;
+    bottom: 4.53vw;
+    left: 38.2205vw;
+  }
+
+  .survey__waiting-gladness-paragraph {
+    font-size: 5.53vw;
+    margin: 0 auto 3.76vw auto;
+  }
+
+  .survey__confirmation-paragraph {
+    font-size: 4.16vw;
+  }
+
+  .survey__confirmation-controls-container {
+    height: 26.28vw;
+  }
+
+  .survey__error-message-container {
+    width: 92.84vw;
+    border-radius: 1.27vw;
+    box-shadow: 0 0 1.36vw 0 black;
+    top: -8.64661vw;
+    left: 0.149374vw;
+    padding: 2.5vw 1vw;
+  }
+
+  .survey__error-message-container > div > img:first-child {
+    width: 9.33vw;
+    height: 9.33vw;
+  }
+
+  .survey__error-message-container > div > img:last-child {
+    width: 4.26vw;
+    height: 4.26vw;
+    top: -1.27vw;
+    right: 0.23vw;
+  }
+
+  .survey__confirmation-controls-container > input {
+    width: 65.52vw;
+    height: 9.14vw;
+    padding: 0.2vw 3.16vw 0vw 3.16vw;
+  }
+
+  .survey__name-validation-container {
+    border-radius: 1.07vw;
+    left: -1.3vw;
+    padding: 2vw;
+  }
+
+  .survey__name-validation-container::before {
+    border: 2.56vw solid transparent;
+    border-bottom: 3.78vw solid #C9C9C9;
+    top: -5.01vw;
+  }
+
+  .survey__name-validation-container > p {
+    font-size: 3.5vw;
+  }
+
+  p.survey__already-answered-paragraph, p.survey__confirmation-success-paragraph {
+    font-size: 4.36vw;
+    top: 15.87vw;
+  }
+
+  .survey__confirmation-controls-container > button, .survey__confirmation-success-image-container, .survey__loader-container {
+    width: 24.3vw;
+  }
+
+  .survey__confirmation-controls-container > button {
+    height: 9.14vw;
+    border: 0.8vw solid #50A950;
+    border-radius: 0.98vw;
+    padding: 0 3.08vw;
+  }
+
+  .survey__confirmation-success-image-container {
+    height: 13.23vw;
+  }
+
+  .survey__confirmation-success-image-container > img {
+    width: 12.73vw;
+    height: 12.73vw;
+    top: 0.4112347vw;
+  }
+
+  .survey__loader-container {
+    height: 10.74vw;
+  }
+
+  .survey__loader-items-container {
+    width: 12.026vw;
+    height: 12.026vw;
+    top: 5.43vw;
+  }
+
+  .survey__loader-items-container > span::before {
+    width: 5.013vw;
+    height: 5.013vw;
+  }
+}
+
+@media (max-width: 320px) {
+  .va-wedding-main-content-container__time-paragraph {
+    top: 4.2vw;
+  }
+
+  .va-wedding-main-content-container__wedding-slider-container {
+    margin: 7.8125vw 0 17.1875vw 0;
+  }
+
+  .wedding-slider-container__left-control {
+    right: -2.5vw;
+  }
+
+  .wedding-slider-container__left-control, .wedding-slider-container__right-control {
+    width: 6.5625vw;
+    height: 6.5625vw;
+    border: 0.3125vw solid green;
+  }
+
+  .wedding-slider-container__slides-wrapper {
+    width: 76.5625vw;
+    height: 88.4375vw;
+  }
+
+  .wedding-slider-container__images-container {
+    width: 587.8125vw;
+    column-gap: 19.6875vw;
+    left: -141.7vw;
+  }
+
+  .wedding-slider-container__images-container > img {
+    width: 56.25vw;
+    height: 78.125vw;
+    box-shadow: 0 0 3.125vw 0 black;
+    transform: translateX(75.9375vw);
+  }
+
+  .wedding-slider-container__right-control {
+    left: -2.5vw;
+  }
+
+  .survey__alcohol-survey-container > div > input:checked {
+    background-size: 100% 83%;
+  }
+
+  .survey__alcohol-survey-container > div:not(:first-of-type) > p {
+    margin-bottom: 0px;
+  }
+
+  .survey__loader-items-container {
+    width: 14.03124vw;
+    height: 14.03124vw;
+  }
+
+  .survey__loader-items-container > span::before {
+    width: 6.01564vw;
+    height: 6.01564vw;
+  }
+}

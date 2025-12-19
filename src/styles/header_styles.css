@@ -1,0 +1,11 @@
+header {
+  padding-top: 0.79vw;
+}
+
+header > h1 {
+  width: fit-content;
+  font: normal normal 100 normal 1.7vw/1.6vw "CormorantGaramond-Regular";
+  color: #50A950;
+  text-align: center;
+  margin: 0 auto;
+}
