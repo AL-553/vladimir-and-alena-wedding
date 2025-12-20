@@ -167,7 +167,9 @@ const server = http.createServer({ maxHeaderSize: 512000, requestTimeout: 30000 
             serverRequest.headers.referer === "http://localhost:3000/build/styles/mainstyle.css" ||
             serverRequest.headers.referer === "http://127.0.0.1:3000/styles/mainstyle.css" ||
             serverRequest.headers.referer === "http://localhost:3000/styles/mainstyle.css" ||
-            serverRequest.headers.referer === "https://vladimir-and-alena-wedding.onrender.com/"
+            serverRequest.headers.referer === "https://vladimir-and-alena-wedding.onrender.com/" ||
+            serverRequest.headers.referer === "https://vladimir-and-alena-wedding.onrender.com/scripts/mainscript.js" ||
+            serverRequest.headers.referer === "https://vladimir-and-alena-wedding.onrender.com/styles/mainstyle.css"
         ) {
             let requestPath = serverRequest.url.slice(0, serverRequest.url.lastIndexOf("/"));
             let requestFullFileName = serverRequest.url.slice(serverRequest.url.lastIndexOf("/") + 1);
