@@ -160,7 +160,8 @@ function checkboxesMarkHandler(inputEvent) {
 }
 async function surveyFormDataSender() {
     try {
-        const serverResponse = await fetch(`${window.location.protocol}://${window.location.host}/send-survey-data`, {
+        console.log(window.location.protocol);
+        const serverResponse = await fetch(`${window.location.protocol}//${window.location.host}/send-survey-data`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -173,14 +174,14 @@ async function surveyFormDataSender() {
         });
 
         if((!serverResponse.ok || serverResponse.status !== 200) && serverResponse.status !== 204) {
-            throw new Error(`Fetch-запрос \"http://${window.location.host}/send-survey-data\" выполнен неуспешно (serverResponse.status не равно 200 или serverResponse.ok —` +
-            " false)");
+            throw new Error(`Fetch-запрос "${window.location.protocol}//${window.location.host}/send-survey-data" выполнен неуспешно (serverResponse.status не равно 200 или` +
+            " serverResponse.ok — false)");
         }
     }
     catch(error) {
         if(error.name === "TimeoutError") {
-            console.log(`Произошла ошибка. Ошибка внутри \"surveyFormDataSender\". Fetch-запрос \"http://${window.location.host}/send-survey-data\" выполнен неуспешно` +
-            " (превышено время ожидания ответа сервера)");
+            console.log(`Произошла ошибка. Ошибка внутри "surveyFormDataSender". Fetch-запрос "${window.location.protocol}//${window.location.host}/send-survey-data"` +
+            " выполнен неуспешно (превышено время ожидания ответа сервера)");
         }
         else {
             console.log(`Произошла ошибка. Ошибка внутри "surveyFormDataSender". ${error}`);
