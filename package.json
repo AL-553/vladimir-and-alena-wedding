@@ -2,21 +2,26 @@
   "name": "wedding_site",
   "private": true,
   "scripts": {
-    "webpackDev": "npm exec -g -- webpack --config ./webpack_config/webpack.dev.js",
-    "serverDev": "npm exec -g -- nodemon --env-file=development.env server.js",
-    "webpackBuild": "npm exec -g -- webpack --config ./webpack_config/webpack.prod.js",
+    "webpackDev": "npm exec -- webpack --config ./webpack_config/webpack.dev.js",
+    "serverDev": "npm exec -- nodemon --env-file=development.env server.js",
+    "webpackBuild": "npm exec -- webpack --config ./webpack_config/webpack.prod.js",
     "serverStart": "node --env-file=production.env server.js",
-    "productionTest": "npm exec -g -- npm-run-all2 --parallel webpackBuild serverStart",
-    "dev": "npm exec -g -- npm-run-all2 --parallel webpackDev serverDev",
+    "productionTest": "npm exec -- npm-run-all2 --parallel webpackBuild serverStart",
+    "dev": "npm exec -- npm-run-all2 --parallel webpackDev serverDev",
     "build": "npm exec -- webpack --config ./webpack_config/webpack.prod.js",
     "start": "node server.js"
   },
   "dependencies": {
     "css-loader": "^7.1.2",
     "css-minimizer-webpack-plugin": "^7.0.4",
+    "html-webpack-plugin": "^5.6.5",
     "mini-css-extract-plugin": "^2.9.4",
     "webpack": "^5.103.0",
     "webpack-cli": "^6.0.1",
     "webpack-merge": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "npm-run-all2": "^8.0.4"
   }
 }

@@ -1,14 +1,14 @@
 @font-face {
   font-family: "CormorantGaramond-Regular";
-  src: url("../../src/assets/fonts/CormorantGaramond/CormorantGaramond-Regular.woff2") format("woff2");
+  src: url("/src/assets/fonts/CormorantGaramond/CormorantGaramond-Regular.woff2") format("woff2");
 }
 @font-face {
   font-family: "QwitcherGryphen-Bold";
-  src: url("../../src/assets/fonts/QwitcherGryphen/QwitcherGrypen-Bold.woff2") format("woff2");
+  src: url("/src/assets/fonts/QwitcherGryphen/QwitcherGrypen-Bold.woff2") format("woff2");
 }
 @font-face {
   font-family: "OpenSans-Regular";
-  src: url("../../src/assets/fonts/OpenSans/OpenSans-Regular.woff2") format("woff2");
+  src: url("/src/assets/fonts/OpenSans/OpenSans-Regular.woff2") format("woff2");
 }
 
 * {
@@ -34,7 +34,7 @@
 }
 
 body {
-  background-image: url("../../src/assets/images/background_dented_paper.jpg");
+  background-image: url("/src/assets/images/background_dented_paper.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }

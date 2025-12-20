@@ -20,7 +20,7 @@
   }
   
   .survey__loader-items-container > span::before {
-    content: url("../../src/assets/icons/green_empty_circle_increased.svg");
+    content: url("/src/assets/icons/green_empty_circle_increased.svg");
     width: 1.5vw;
     height: 1.5vw;
   }

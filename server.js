@@ -9,7 +9,9 @@ const permittedFilesPathsArray = [
     "/src/assets/icons",
     "/src/assets/images",
     "/build/scripts",
-    "/build/styles"
+    "/scripts",
+    "/build/styles",
+    "/styles"
 ];
 const permittedFilesNamesArray = [
     "CormorantGaramond-Regular.woff2",
@@ -39,8 +41,18 @@ const permittedFilesNamesArray = [
     "mainscript.js",
     "mainstyle.css"
 ];
-const host = process.env.NODE_ENV === "development" ? "127.0.0.1" : "0.0.0.0";
-const port = process.env.NODE_ENV === "development" ? 3000 : 10000;
+
+let host;
+let port;
+
+if(process.env.NODE_ENV === "development" || process.env.NODE_ENV === "production" && process.env.SERVER_HOST === "127.0.0.1" && process.env.SERVER_PORT === "3000") {
+    host = "127.0.0.1";
+    port = 3000;
+}
+else {
+    host = "0.0.0.0";
+    port = 10000;
+}
 
 function MIMERecognizer(extension) {
     let contentType;
@@ -147,10 +159,14 @@ const server = http.createServer({ maxHeaderSize: 512000, requestTimeout: 30000 
         if(
             serverRequest.headers.referer === "http://localhost:3000/" ||
             serverRequest.headers.referer === "http://127.0.0.1:3000/" ||
-            serverRequest.headers.referer === "http://127.0.0.1:3000/build/styles/mainstyle.css" ||
-            serverRequest.headers.referer === "http://localhost:3000/build/styles/mainstyle.css" ||
             serverRequest.headers.referer === "http://127.0.0.1:3000/build/scripts/mainscript.js" ||
             serverRequest.headers.referer === "http://localhost:3000/build/scripts/mainscript.js" ||
+            serverRequest.headers.referer === "http://127.0.0.1:3000/scripts/mainscript.js" ||
+            serverRequest.headers.referer === "http://localhost:3000/scripts/mainscript.js" ||
+            serverRequest.headers.referer === "http://127.0.0.1:3000/build/styles/mainstyle.css" ||
+            serverRequest.headers.referer === "http://localhost:3000/build/styles/mainstyle.css" ||
+            serverRequest.headers.referer === "http://127.0.0.1:3000/styles/mainstyle.css" ||
+            serverRequest.headers.referer === "http://localhost:3000/styles/mainstyle.css" ||
             serverRequest.headers.referer === "https://vladimir-and-alena-wedding.onrender.com/"
         ) {
             let requestPath = serverRequest.url.slice(0, serverRequest.url.lastIndexOf("/"));

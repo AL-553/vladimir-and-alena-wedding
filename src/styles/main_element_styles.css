@@ -78,7 +78,7 @@
 }
 
 .wedding-slider-container__left-control {
-  background-image: url("../../src/assets/icons/left_arrow.svg");
+  background-image: url("/src/assets/icons/left_arrow.svg");
   right: -1.830546vw;
 }
 
@@ -137,7 +137,7 @@
 }
 
 .wedding-slider-container__right-control {
-  background-image: url("../../src/assets/icons/right_arrow.svg");
+  background-image: url("/src/assets/icons/right_arrow.svg");
   left: -1.830546vw;
 }
 
@@ -309,7 +309,7 @@
 
 .survey__alcohol-survey-container > div > input:checked {
   background-color: green;
-  background-image: url("../../src/assets/icons/tick.svg");
+  background-image: url("/src/assets/icons/tick.svg");
   background-repeat: no-repeat;
   background-size: 80% 80%;
   background-position: center center;
@@ -653,7 +653,7 @@ img.survey__come-confirmation-success-image_impulsed {
 }
 
 .survey__loader-items-container > span::before {
-  content: url("../../src/assets/icons/green_empty_circle.svg");
+  content: url("/src/assets/icons/green_empty_circle.svg");
   position: absolute;
   width: 1.39vw;
   height: 1.39vw;
