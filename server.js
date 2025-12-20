@@ -84,7 +84,6 @@ function MIMERecognizer(extension) {
 }
 
 const server = http.createServer({ maxHeaderSize: 512000, requestTimeout: 30000 }, (serverRequest, serverResponse) => {
-    console.log(serverRequest.headers.referer);
     if(serverRequest.url === "/" || serverRequest.url === "http://localhost:3000/" || serverRequest.url === "http://127.0.0.1:3000/" || serverRequest.url === "/index.html") {
         fs.readFile(`${__dirname}/index.html`, (indexError, indexData) => {
             if(indexError) {

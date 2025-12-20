@@ -160,7 +160,6 @@ function checkboxesMarkHandler(inputEvent) {
 }
 async function surveyFormDataSender() {
     try {
-        console.log(window.location.protocol);
         const serverResponse = await fetch(`${window.location.protocol}//${window.location.host}/send-survey-data`, {
             method: "POST",
             headers: {
